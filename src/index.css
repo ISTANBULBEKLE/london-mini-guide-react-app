@@ -48,4 +48,9 @@ code {
   justify-content:space-around;
   background-color: #E4F6D2;
   padding-top:40px;
+  padding-bottom:40px;
+}
+table{
+  background-color: #E4F6D2;
+  border: 1px solid black;
 }
