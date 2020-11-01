@@ -4,9 +4,9 @@ const TableElement = () => {
 
   return (
     <div>
-<table className="table">
+<table className="table table-bordered table-hover">
   <thead>
-    <tr>
+    <tr className='table-secondary'>
       <th scope="col">#</th>
       <th scope="col">Name</th>
       <th scope="col">Phone</th>
@@ -15,21 +15,21 @@ const TableElement = () => {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr className='table-secondary'>
       <th scope="row">1</th>
       <td>Mark</td>
       <td>0747366543</td>
       <td>10 York Close, Downend, London</td>
        <td>HeathCare Ltd.</td>
     </tr>
-    <tr>
+    <tr className='table-secondary'>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>0747366543</td>
       <td>1 Brandon Close, Dayton, London</td>
        <td>HeathCare Ltd.</td>
     </tr>
-    <tr>
+    <tr className='table-secondary'>
       <th scope="row">3</th>
       <td>Jacob</td>
       <td>0747366543</td>
