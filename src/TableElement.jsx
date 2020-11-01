@@ -3,7 +3,6 @@ import React from "react";
 const TableElement = () => {
 
   return (
-    <div>
 <table className="table table-bordered table-hover">
   <thead>
     <tr className='table-secondary'>
@@ -38,7 +37,6 @@ const TableElement = () => {
     </tr>
   </tbody>
 </table>
-    </div>
   );
 };
 
